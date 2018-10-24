@@ -1,0 +1,120 @@
+input, select, textarea {
+    outline: none;
+    appearance: unset !important;
+    -moz-appearance: unset !important;
+    -webkit-appearance: unset !important;
+    -o-appearance: unset !important;
+    -ms-appearance: unset !important; }
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    appearance: none !important;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    -o-appearance: none !important;
+    -ms-appearance: none !important;
+    margin: 0; }
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -o-box-shadow: none !important;
+    -ms-box-shadow: none !important; }
+
+
+h2 {
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #222;
+    font-family: 'Poppins', sans-serif;;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-transform: uppercase; }
+
+.clear {
+    clear: both; }
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    line-height: 1.8;
+    color: #fff;
+    background-image: url("../assets/img/Searchs_002.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-position: center center;
+    font-weight: 400;
+    margin: 0px;
+
+    min-height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;}
+
+.main {
+    padding: 60px 0;
+    position: relative; }
+
+.container {
+    width: 586px;
+    background: #fff;
+    margin-left: 165px;
+}
+.container{
+    border: 16px solid rgba(0,0,0,0.7);
+}
+.appointment-form {
+    padding: 50px 60px 70px 60px; }
+
+input, select {
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+    padding: 5px 0;
+    color: #222;
+    margin-bottom: 31px;
+    font-family: 'Poppins', sans-serif;}
+input:focus, select:focus {
+    color: #222;
+    border-bottom: 2px solid #b78a62; }
+
+.submit {
+    width: auto;
+    background: #b78a62;
+    color: #fff;
+    padding: 16px 17px;
+    font-size: 13px;
+    border: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 1px 15px 0px rgba(148, 108, 74, 0.7);
+    -moz-box-shadow: 0px 1px 15px 0px rgba(148, 108, 74, 0.7);
+    -webkit-box-shadow: 0px 1px 15px 0px rgba(148, 108, 74, 0.7);
+    -o-box-shadow: 0px 1px 15px 0px rgba(148, 108, 74, 0.7);
+    -ms-box-shadow: 0px 1px 15px 0px rgba(148, 108, 74, 0.7); }
+.submit:hover {
+    background: #806854; }
+
+@media screen and (max-width: 1024px) {
+    .container {
+        margin: 0 auto; } }
+@media screen and (max-width: 768px) {
+    .container {
+        width: calc( 100% - 30px);
+        max-width: 100%; } }
+@media screen and (max-width: 480px) {
+    .appointment-form {
+        padding: 50px 30px 70px 30px; } }

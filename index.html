@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet" />
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,500,500i">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Search Work</title>
+  </head>
+  <body>
+    <div class="s002">
+      <div class="bs-example">
+        <div id="myModal" class="modal fade">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 class="title">Log in</h2>
+              </div>
+              <div class="modal-body">
+                <form role="form">
+                  <div class="form-group">
+                    <label for="email" class="control-label">Email:</label>
+                    <input type="email" class="form-control" id="email" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="pass" class="control-label">Password:</label>
+                    <input id="pass" type="password" class="form-control"  required>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <a href="register.html"><button href="register.html" type="button" class="btn btn-default">REGISTRATION</button></a>
+                <a href="#"><button href="register.html" type="button" class="btn btn-primary">LOG IN</button></a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+
+      <nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="top-navbar-1">
+            <ul class="nav navbar-nav navbar-right navbar-menu-items wow fadeIn">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#" type="button" data-toggle="modal" data-target="#myModal" data-title="Log in">Log in</a></li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+      <form>
+        <fieldset>
+          <legend>SEARCH WORK</legend>
+        </fieldset>
+        <div class="inner-form">
+          <div class="input-field first-wrap">
+            <input id="search" type="text" placeholder="What are you looking for?" />
+          </div>
+          <div class="input-field second-wrap">
+            <div class="icon-wrap">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path>
+              </svg>
+            </div>
+            <input class="datepicker" id="depart" type="text" placeholder="Location" />
+          </div>
+          <div class="input-field fifth-wrap">
+            <button class="btn-search" type="button">SEARCH</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="assets/js/jquery-1.11.1.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

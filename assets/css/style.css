@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #888;
+    line-height: 30px;
+    text-align: center;
+}
+
+.bs-example{
+	margin: 20px;
+}
+.modal-content{
+	background-color: #ffffff;
+}
+.btn-primary{
+	background-color: #b78a62;
+	border: #b78a62;
+}
+.btn-primary:hover {
+	background: #806854; }
+.btn-primary:focus {
+	background: #806854; }
+.title{
+	line-height: 1.8;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-family: 'Poppins', sans-serif;;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.form-group{
+	text-align: left;
+}
+
+
+
+a, a:hover, a:focus {
+	color: #ca8bdc; text-decoration: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+img { max-width: 100%; }
+
+.navbar {
+	margin-bottom: 0;
+	background: #444;
+	border: 0;
+	-o-transition: all .6s; -moz-transition: all .6s; -webkit-transition: all .6s; -ms-transition: all .6s; transition: all .6s;
+}
+.navbar.navbar-no-bg { padding: 5px 0; background: #444; background: rgba(0, 0, 0, 0.5); }
+
+.navbar-right { margin-right: 0; }
+
+ul.navbar-nav { font-size: 16px; color: #fff; }
+.navbar-inverse ul.navbar-nav li a { color: #fff; color: rgba(255, 255, 255, 0.8); }
+.navbar-inverse ul.navbar-nav li a:hover { color: #ca8bdc; }
+.navbar-inverse ul.navbar-nav li a:focus { color: #ca8bdc; outline: 0; }
+
+.navbar-brand {
+	width: 95px;
+	background: url(../img/logo.png) left center no-repeat;
+	text-indent: -99999px;
+}
+.navbar>.container .navbar-brand { margin-left: 0; }
+.navbar-menu-items.disabled { display: none; }
+@media (max-width: 767px) {
+	.navbar.navbar-no-bg { padding: 0; background: #444; }
+	.navbar>.container .navbar-brand { margin-left: 15px; }
+	.navbar-right { margin-right: -15px; }
+	.navbar-collapse { border: 0; }
+	.navbar-inverse ul.navbar-nav li a { padding-top: 10px; padding-bottom: 10px; }
+	.navbar-inverse .navbar-toggle { border-color: #444; }
+	.navbar-form {
+		border: 0; padding-top: 5px; padding-bottom: 5px;
+		-moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+	}
+}
+
