@@ -72,6 +72,10 @@ legend {
   box-sizing: border-box;
 }
 
+
+
+
+
 .s002 {
   min-height: 100vh;
   display: -ms-flexbox;
@@ -189,11 +193,16 @@ legend {
   max-width: 300px;
 }
 
-
+.s002 form .inner-form .input-field.fouth-wrap {
+  min-width: 190px;
+  max-width: 190px;
+  border-right: 0;
+}
 .s002 form .inner-form .input-field.fouth-wrap .choices__inner {
   background: #fff;
   border-radius: 0;
   border: 0;
+
   height: 70px;
   color: #666;
   display: -ms-flexbox;

@@ -33,11 +33,51 @@ body {
 .form-group{
 	text-align: left;
 }
-
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+	text-align: left;
+}
+.about h1{
+	color:#F97300;
+	margin: 2em;
+}
+.about img{
+	height: 90%;
+	width: 90%;
+	border-radius: 50%
+}
+.about span{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 2em;
+	border-left:4px solid #b78a62;
+}
+.about .desc h3{
+	color: #b78a62;
+}
+.about .desc p{
+	line-height:2;
+	color:#888;
+}
+.btn-outline-secondary{
+	width: 150px;
+	background-color: #ffffff;
+	border: 2px solid #b78a62;
+	color: #444;
+}
+.btn-outline-secondary:hover {
+	background: #b78a62;
+	color: #ffffff;
+}
 
 
 a, a:hover, a:focus {
-	color: #ca8bdc; text-decoration: none;
     -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
 }
 
