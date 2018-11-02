@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet"/>
+    <link rel="stylesheet" href="http://bootstraptema.ru/plugins/2015/bootstrap3/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,500,500i">
+    <link rel="stylesheet" href="http://bootstraptema.ru/plugins/font-awesome/4-4-0/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/vacancy.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog modal-login">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="avatar">
+                    <img src="assets/img/fb517f8913bd99cd48ef00facb4a67c0-empres-rio-avatar-silhueta-by-vexels.png" alt="Avatar">
+                </div>
+                <h4 class="modal-title">Log in to Account</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form action="/examples/actions/confirmation.php" method="post">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="username" placeholder="Username" required="required">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Log in</button>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a href="#">Forgot Password?</a> 	&#8195;
+                <a href="register.html">Create a new account</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="header">
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#top-navbar-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="top-navbar-1">
+            <ul class="nav navbar-nav navbar-right navbar-menu-items wow fadeIn">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" type="button" data-toggle="modal" data-target="#myModal" data-title="Log in">Log
+                    in</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</div>
+
+
+
+<div class="main">
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-sm-12">
+            <div class="serviceBox">
+                <div class="service-content">
+                    <p>Category:</p>
+                    <div class="form-group-filter">
+                        <select class="mdb-select">
+                            <option value="" disabled>Choose option:</option>
+                            <option value="1" selected>No matter</option>
+                            <option value="2">IT, computers, internet</option>
+                            <option value="3">Administration, middle management</option>
+                            <option value="4">Construction, architecture</option>
+                            <option value="5">Accounting, audit</option>
+                        </select>
+                    </div>
+
+                    <p>Type of employment:</p>
+                    <div class="form-group-filter">
+                        <label class="radio">Full-time employment<input type="radio" name="is_type"><span
+                                class="checkround"></span></label>
+                        <label class="radio">Part-time employment<input type="radio" name="is_type"><span
+                                class="checkround"></span></label>
+                        <label class="radio">Remote work<input type="radio" name="is_type"><span
+                                class="checkround"></span></label>
+                        <label class="radio">Internship<input type="radio" name="is_type"><span
+                                class="checkround"></span></label>
+                        <label class="radio">No matter<input type="radio" checked="checked" name="is_type"><span
+                                class="checkround"></span></label>
+                    </div>
+
+                    <p>City:</p>
+                    <div class="form-group-filter">
+                        <select class="mdb-select">
+                            <option value="" disabled>Choose option:</option>
+                            <option value="1" selected>No matter</option>
+                            <option value="2">Kiev</option>
+                            <option value="3">Odessa</option>
+                            <option value="4">Lviv</option>
+                            <option value="5">Kharkiv</option>
+                            <option value="6">Donetsk</option>
+                            <option value="7">Dnipro</option>
+                        </select>
+                    </div>
+                    <p>Your education:</p>
+                    <div class="form-group-filter">
+                        <select class="mdb-select">
+                            <option value="" disabled>Choose option:</option>
+                            <option value="1" selected>No matter</option>
+                            <option value="2">Higher education</option>
+                            <option value="3">Incomplete higher education</option>
+                            <option value="4">Secondary special education</option>
+                            <option value="5">Secondary education</option>
+                        </select>
+                    </div>
+
+                    <p>Desired salary:</p>
+                    <div class="form-group-filter">
+                        <div class="flex-box">
+                            <div class="item">
+                                <h5>over</h5>
+                            </div>
+                            <div class="item">
+                                <input class="number" id="number1" type="number" min="0" step="2000">
+                            </div>
+                            <div class="item">
+                                <h5>UAH</h5>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <label class="checkbox"><input type="checkbox">No matter</label>
+                        </div>
+                    </div>
+
+                    <p>Work experience:</p>
+                    <div class="form-group-filter">
+                        <select class="mdb-select">
+                            <option value="" disabled>Choose option:</option>
+                            <option value="1" selected>No matter</option>
+                            <option value="2">More than 1 years</option>
+                            <option value="3">More than 3 years</option>
+                            <option value="4">More than 5 years</option>
+                            <option value="5">More than 10 years</option>
+                        </select>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-9 col-sm-12">
+            <div class="serviceBox">
+                <div class="service-content">
+                    <span class="results">Found in search of <strong><i>"Java developer"</i></strong> in Lviv <strong><i>56</i></strong> vacancies</span>
+                    <hr>
+
+                    <table class="table table-borderless" align="center">
+                        <tbody>
+                        <tr>
+                            <td colspan="2"><span class="nameVacancy"><a href="#">Junior/Trainee Software Engineer</a> </span><br>14000
+                                UAH
+                            </td>
+                            <td rowspan="2" align="center" width="22%"><img src="assets/img/Facebook_icon_180x180.jpg"
+                                                                            class="imgVacancy">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="icon-wrap">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path>
+                                    </svg>
+                                    <span class="company">Softserve</span>, Lviv
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Full-time employment &#9899; Work experience more than 1 year &#9899; Higher
+                                education
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="descriptonVacancy">We are welcome to propose internship program in our company. This a good
+                                opportunity to get new knowledge and improve your skills in programming. If you are
+                                studying in the last years of university or...
+
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                    <hr>
+
+
+                    <table class="table table-borderless" align="center">
+                        <tbody>
+                        <tr>
+                            <td colspan="2"><span class="nameVacancy"><a href="#">C#/Java Developer</a></span><br>16000 UAH</td>
+                            <td rowspan="2" align="center" width="22%"><img src="assets/img/GlobalLogic-Logo-Gray.png"
+                                                                            class="imgVacancy">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div class="icon-wrap">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path>
+                                    </svg>
+                                    <span class="company">GlobalLogic</span>, Kiev
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">Full-time employment &#9899; Work experience more than 2 year &#9899; Higher
+                                education
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3" class="descriptonVacancy">A challenging C#/Java project with advanced architecture solutions,
+                                continuous optimizations and code improvement. The customer has 25 years of experience
+                                in professional software...
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                <ul class="list-unstyled list-inline social text-center">
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+            </div>
+            </hr>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                <p class="h5"> Look for work <u><a href="index.html">here</a></u> and never give up. Maybe our site will help
+                    fulfill your dream.</p>
+                <p class="h5">&copy 2018-2019 Search Work. </p>
+            </div>
+            </hr>
+        </div>
+    </div>
+</section>
+<script src="assets/js/jquery-1.11.1.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

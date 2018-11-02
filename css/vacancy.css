@@ -1,0 +1,162 @@
+body {
+    background-color: #f4f5f6;
+}
+
+.main .container{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.main .serviceBox {
+    background: #fff;
+    padding: 20px 0 40px;
+    position: relative;
+}
+
+.main .serviceBox .service-content h3 a {
+    font-size: 22px;
+    color: #333;
+}
+
+.main .serviceBox .service-content p {
+    font-size: 18px;
+    padding: 0 20px;
+    margin: 15px 0 30px;
+    color: #333;
+}
+
+@media screen and (max-width: 990px) {
+    .main .serviceBox {
+        margin-bottom: 20px;
+        padding: 20px 0;
+    }
+}
+
+.main .results {
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+.main .form-group-filter {
+    margin-top: -18px;
+    margin-left: 30px;
+}
+
+/* The radio */
+.main .radio {
+    color: #333;;
+    font-weight: normal;
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+/* Hide the browser's default radio button */
+.main .radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.main .checkround {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #fff;
+    border-color: #b78a62;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+}
+
+/* When the radio button is checked, add a blue background */
+.main .radio input:checked ~ .checkround {
+    background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.main .checkround:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.main .radio input:checked ~ .checkround:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.main .radio .checkround:after {
+    left: 2px;
+    top: 2px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #b78a62;
+}
+
+.main .mdb-select {
+    width: 200px;
+}
+
+.main .number {
+    width: 90px;
+}
+
+.main .form-group-filter .flex-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.main .form-group-filter .item {
+    padding-right: 5px;
+}
+
+.main .table-borderless td,
+.table-borderless th {
+    border: 0 !important;
+}
+
+.main .table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    width: 90%;
+}
+
+.main hr {
+    border: none;
+    color: #D4D5D6;
+    background-color: #d4d5d6;
+    height: 1px;
+    width: 90%;
+}
+
+.main .imgVacancy {
+    width: 100%;
+    height: 100%;
+}
+
+.main .nameVacancy a{
+    color: #b78a62;
+    font-weight: bold;
+    font-size: 24px;
+}
+.main .descriptonVacancy{
+    color: #888;
+
+}
+.main .company{
+    color: #5b4f39;
+}
+

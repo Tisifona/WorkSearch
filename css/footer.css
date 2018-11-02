@@ -6,7 +6,10 @@ section {
 #footer {
     background: #444 !important;
 }
-
+#footer .container{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 #footer a {
     color: #ffffff;
     text-decoration: none !important;

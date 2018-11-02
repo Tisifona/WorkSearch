@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet"/>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/footer.css"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,500,500i">
@@ -12,128 +12,140 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Search Work</title>
-  </head>
-  <body>
-    <div class="s002">
-      <div class="bs-example">
-        <div id="myModal" class="modal fade">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h2 class="title">Log in</h2>
-              </div>
-              <div class="modal-body">
-                <form role="form">
-                  <div class="form-group">
-                    <label for="email" class="control-label">Email:</label>
-                    <input type="email" class="form-control" id="email" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="pass" class="control-label">Password:</label>
-                    <input id="pass" type="password" class="form-control"  required>
-                  </div>
-                </form>
-              </div>
-              <div class="modal-footer">
-                <a href="register.html"><button href="register.html" type="button" class="btn btn-default">REGISTRATION</button></a>
-                <a href="#"><button href="register.html" type="button" class="btn btn-primary">LOG IN</button></a>
-              </div>
-            </div>
-            </div>
-          </div>
-        </div>
+</head>
+<body>
+<div class="s002">
 
-      <nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html"></a>
-          </div>
-          <div class="collapse navbar-collapse" id="top-navbar-1">
-            <ul class="nav navbar-nav navbar-right navbar-menu-items wow fadeIn">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#" type="button" data-toggle="modal" data-target="#myModal" data-title="Log in">Log in</a></li>
-              </ul>
-          </div>
-        </div>
-      </nav>
-      <form>
-        <fieldset>
-          <legend>SEARCH WORK</legend>
-        </fieldset>
-        <div class="inner-form">
-          <div class="input-field first-wrap">
-            <input id="search" type="text" placeholder="What are you looking for?" />
-          </div>
-          <div class="input-field second-wrap">
-            <div class="icon-wrap">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path>
-              </svg>
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog modal-login">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="avatar">
+                        <img src="assets/img/fb517f8913bd99cd48ef00facb4a67c0-empres-rio-avatar-silhueta-by-vexels.png" alt="Avatar">
+                    </div>
+                    <h4 class="modal-title">Log in to Account</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form action="/examples/actions/confirmation.php" method="post">
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="username" placeholder="Username" required="required">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Log in</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <a href="#">Forgot Password?</a> 	&#8195;
+                    <a href="register.html">Create a new account</a>
+                </div>
             </div>
-            <input class="datepicker" id="depart" type="text" placeholder="Location" />
-          </div>
-          <div class="input-field fifth-wrap">
-            <button class="btn-search" type="button">SEARCH</button>
-          </div>
         </div>
-      </form>
     </div>
 
-    <section class="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12">
-            <img src="assets/img/cv.jpeg" class="img-fluid">
-          </div>
-          <div class="col-lg-8 col-md-8 col-sm-12 desc">
 
-            <h3>POST RESUME</h3>
-            <p>
-              ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-              quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <button type="button" class="btn btn-outline-secondary waves-effect">CREATE RESUME</button>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section id="footer">
-      <div class="container">
+
+<div class="header">
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#top-navbar-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="top-navbar-1">
+                <ul class="nav navbar-nav navbar-right navbar-menu-items wow fadeIn">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#" type="button" data-toggle="modal" data-target="#myModal" data-title="Log in">Log
+                        in</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+    <form>
+        <fieldset>
+            <legend>SEARCH WORK</legend>
+        </fieldset>
+        <div class="inner-form">
+            <div class="input-field first-wrap">
+                <input id="search" type="text" placeholder="What are you looking for?"/>
+            </div>
+            <div class="input-field second-wrap">
+                <div class="icon-wrap">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"></path>
+                    </svg>
+                </div>
+                <input class="datepicker" id="depart" type="text" placeholder="Location"/>
+            </div>
+            <div class="input-field fifth-wrap">
+                <button class="btn-search" type="button">SEARCH</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<section class="about">
+    <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-            <ul class="list-unstyled list-inline social text-center">
-              <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
-              <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
-            </ul>
-          </div>
-          </hr>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="assets/img/cv.jpeg" class="img-fluid">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 desc">
+
+                <h3>POST RESUME</h3>
+                <p>
+                    ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <button type="button" class="btn btn-outline-secondary waves-effect">CREATE RESUME</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                <ul class="list-unstyled list-inline social text-center">
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+            </div>
+            </hr>
         </div>
         <div class="row">
-          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
-            <p class="h5"> Look for work <u><a href="#">here</a></u>  and never give up. Maybe our site will help fulfill your dream.</p>
-            <p class="h5">&copy 2018-2019 Search Work. </p>
-          </div>
-          </hr>
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                <p class="h5"> Look for work <u><a href="#">here</a></u> and never give up. Maybe our site will help
+                    fulfill your dream.</p>
+                <p class="h5">&copy 2018-2019 Search Work. </p>
+            </div>
         </div>
-      </div>
-    </section>
-    <script src="assets/js/jquery-1.11.1.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  </body>
+    </div>
+</section>
+<script src="assets/js/jquery-1.11.1.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
 </html>

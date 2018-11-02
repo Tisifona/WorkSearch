@@ -4,7 +4,8 @@ input, select, textarea {
     -moz-appearance: unset !important;
     -webkit-appearance: unset !important;
     -o-appearance: unset !important;
-    -ms-appearance: unset !important; }
+    -ms-appearance: unset !important;
+}
 
 input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     appearance: none !important;
@@ -12,7 +13,8 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
     -webkit-appearance: none !important;
     -o-appearance: none !important;
     -ms-appearance: none !important;
-    margin: 0; }
+    margin: 0;
+}
 
 input:focus, select:focus, textarea:focus {
     outline: none;
@@ -20,8 +22,8 @@ input:focus, select:focus, textarea:focus {
     -moz-box-shadow: none !important;
     -webkit-box-shadow: none !important;
     -o-box-shadow: none !important;
-    -ms-box-shadow: none !important; }
-
+    -ms-box-shadow: none !important;
+}
 
 h2 {
     line-height: 1.8;
@@ -32,10 +34,12 @@ h2 {
     font-family: 'Poppins', sans-serif;;
     font-size: 20px;
     margin-bottom: 30px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+}
 
 .clear {
-    clear: both; }
+    clear: both;
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -57,22 +61,27 @@ body {
     display: -ms-flexbox;
     display: flex;
     font-family: 'Poppins', sans-serif;
-    padding: 15px;}
+    padding: 15px;
+}
 
 .main {
     padding: 60px 0;
-    position: relative; }
+    position: relative;
+}
 
 .container {
     width: 586px;
     background: #fff;
     margin-left: 165px;
 }
-.container{
-    border: 16px solid rgba(0,0,0,0.7);
+
+.container {
+    border: 16px solid rgba(0, 0, 0, 0.7);
 }
+
 .appointment-form {
-    padding: 50px 60px 70px 60px; }
+    padding: 50px 60px 70px 60px;
+}
 
 input, select {
     width: 100%;
@@ -82,10 +91,13 @@ input, select {
     padding: 5px 0;
     color: #222;
     margin-bottom: 31px;
-    font-family: 'Poppins', sans-serif;}
+    font-family: 'Poppins', sans-serif;
+}
+
 input:focus, select:focus {
     color: #222;
-    border-bottom: 2px solid #b78a62; }
+    border-bottom: 2px solid #b78a62;
+}
 
 .submit {
     width: auto;
@@ -104,17 +116,28 @@ input:focus, select:focus {
     -moz-box-shadow: 0px 1px 15px 0px rgba(148, 108, 74, 0.7);
     -webkit-box-shadow: 0px 1px 15px 0px rgba(148, 108, 74, 0.7);
     -o-box-shadow: 0px 1px 15px 0px rgba(148, 108, 74, 0.7);
-    -ms-box-shadow: 0px 1px 15px 0px rgba(148, 108, 74, 0.7); }
+    -ms-box-shadow: 0px 1px 15px 0px rgba(148, 108, 74, 0.7);
+}
+
 .submit:hover {
-    background: #806854; }
+    background: #806854;
+}
 
 @media screen and (max-width: 1024px) {
     .container {
-        margin: 0 auto; } }
+        margin: 0 auto;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .container {
-        width: calc( 100% - 30px);
-        max-width: 100%; } }
+        width: calc(100% - 30px);
+        max-width: 100%;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .appointment-form {
-        padding: 50px 30px 70px 30px; } }
+        padding: 50px 30px 70px 30px;
+    }
+}
