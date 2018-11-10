@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet"/>
+    <link rel="stylesheet" href="http://bootstraptema.ru/plugins/2015/bootstrap3/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,500,500i">
+    <link rel="stylesheet" href="http://bootstraptema.ru/plugins/font-awesome/4-4-0/font-awesome.min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/about.css">
+
+    <script>
+        $( document ).ready(function() {
+            $('.box-slider-content').slick({
+                centerMode: true,
+                infinite: true,
+                slidesToShow: 1,
+                dots: false,
+                appendDots:jQuery(".box-dots"),
+                autoplay: false,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</head>
+<body>
+
+
+
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog modal-login">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="avatar">
+                    <img src="assets/img/fb517f8913bd99cd48ef00facb4a67c0-empres-rio-avatar-silhueta-by-vexels.png" alt="Avatar">
+                </div>
+                <h4 class="modal-title">Log in to Account</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form action="/examples/actions/confirmation.php" method="post">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="username" placeholder="Username" required="required">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="password" placeholder="Password" required="required">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Log in</button>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a href="#">Forgot Password?</a> 	&#8195;
+                <a href="register.html">Create a new account</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="header">
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#top-navbar-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="top-navbar-1">
+                <ul class="nav navbar-nav navbar-right navbar-menu-items wow fadeIn">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#" type="button" data-toggle="modal" data-target="#myModal" data-title="Log in">Log
+                        in</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="img-header">
+    <div class="title">
+        <h1>It's not our work life, <i>it's our life's work.</i></h1>
+    </div>
+</div>
+
+<section class="about">
+    <div class="container">
+        <div class="row">
+            <h1>ABOUT US</h1>
+            <p>
+                SearchWork is a website created for the sole purpose of helping you find decent work.
+
+                On the SearchWork you will find all the vacancies.
+                When you search for vacancies, you will receive a link to the job vacancies that best fit your request.
+                We tried to make SearchWork so that it maximally saved your time and effort: so that by entering one request,
+                you found a job that suits you 100%.
+                Of course, finding a job in the SearchWork is unusual in comparison with the usual list of work in the
+                newspaper or job portal, and if you master it to the fullest extent - you are guaranteed to find the
+                work of your dreams. The only condition is that such a vacancy should exist in principle.
+                Our team is constantly working to make work searching for you as easy as possible, SearchWork is
+                constantly evolving and complemented by new opportunities.
+            </p>
+            <h1>OUR TEAM</h1>
+            <p>We promise to help any person find a job, regardless of where he is living, language, religion, color, or belief.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+<div class="sec-grey paddingSection80">
+    <div class="container">
+        <section class="slider text-center">
+            <div class="big-box-slider">
+                <div class="row box-slider box-slider-content">
+                    <div class="col-sm-4 col-xs-12 slide-item">
+                        <div class="row box-slide-item">
+                            <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12 slide-text text-left">
+                                <h3>Petro</h3>
+                                <hr>
+                                <p>Some text</p>
+                            </div>
+                            <div class="col-md-7 col-sm-6 slide-photo hidden-xs">
+                                <img src="assets/img/44579678_1899792043663467_6749178275416768512_n.jpg" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-12 slide-item">
+                        <div class="row box-slide-item">
+                            <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12 slide-text text-left">
+                                <h3>Adriana</h3>
+                                <hr>
+                                <p>Some text</p>
+                            </div>
+                            <div class="col-md-7 col-sm-6 slide-photo hidden-xs">
+                                <img src="assets/img/xlupQfOtI_E.jpg" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-12 slide-item">
+                        <div class="row box-slide-item">
+                            <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12 slide-text text-left">
+                                <h3>Pavlo</h3>
+                                <hr>
+                                <p>Some text</p>
+                            </div>
+                            <div class="col-md-7 col-sm-6 slide-photo hidden-xs">
+                                <img src="assets/img/photo_2018-07-22_17-48-29.jpg" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-12 slide-item">
+                        <div class="row box-slide-item">
+                            <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12 slide-text text-left">
+                                <h3>Roman</h3>
+                                <hr>
+                                <p>Some text</p>
+                            </div>
+                            <div class="col-md-7 col-sm-6 slide-photo hidden-xs">
+                                <img src="assets/img/photo_2017-05-21_15-06-42.jpg" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-12 slide-item">
+                        <div class="row box-slide-item">
+                            <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12 slide-text text-left">
+                                <h3>Arthem</h3>
+                                <hr>
+                                <p>Some text</p>
+                            </div>
+                            <div class="col-md-7 col-sm-6 slide-photo hidden-xs">
+                                <img src="assets/img/35428368_228953874365357_6768186220120899584_n.jpg" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-12 slide-item">
+                        <div class="row box-slide-item">
+                            <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12 slide-text text-left">
+                                <h3>Danylo</h3>
+                                <hr>
+                                <p>Some text</p>
+                            </div>
+                            <div class="col-md-7 col-sm-6 slide-photo hidden-xs">
+                                <img src="assets/img/18555894_105204073394949_4596384873091380338_n.jpg" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-xs-12 slide-item">
+                        <div class="row box-slide-item">
+                            <div class="col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-12 slide-text text-left">
+                                <h3>Oleh</h3>
+                                <hr>
+                                <p>Some text</p>
+                            </div>
+                            <div class="col-md-7 col-sm-6 slide-photo hidden-xs">
+                                <img src="assets/img/18485457_108787219701899_4005187754499600773_n.jpg" alt="" class="img-responsive">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<section class="about">
+    <div class="container">
+        <div class="row">
+            <h1>CONTACT</h1>
+        </div>
+    </div>
+</section>
+
+
+<div class="container" align="center">
+    <div class="row">
+        <div class="contact">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="assets/img/149384.svg" class="img-contact">
+                <p>+380 957 046 023 (Vodafone/МТС)</p>
+                <p>+380 677 046 023 (Kyivstar)</p>
+                <p>+380 937 046 023 (Lifecell)</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 desc">
+                <img src="assets/img/149226.svg" class="img-contact">
+                <p>Lviv, st. Stepan Bandery, 25</p>
+                <p>Kyiv, st. Konstantinovskaya, 17</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 desc">
+                <img src="assets/img/149313.svg" class="img-contact">
+                <p>Only actual and checked vacancies are available in 24/7 mode</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section id="contact">
+    <div class="section-content">
+        <h1 class="section-header">Get in <span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> Touch with us</span></h1>
+    </div>
+    <div class="contact-section">
+        <div class="container">
+            <form>
+                <div class="col-md-6 form-line">
+                    <div class="form-group">
+                        <label for="exampleInputUsername">Your name</label>
+                        <input type="text" class="form-control" id="exampleInputUsername" placeholder=" Enter Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail">Email Address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="telephone">Mobile No.</label>
+                        <input type="tel" class="form-control" id="telephone" placeholder=" Enter mobile no.">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for ="description"> Message</label>
+                        <textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+                    </div>
+                    <div>
+
+                        <button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                <ul class="list-unstyled list-inline social text-center">
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+            </div>
+            </hr>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                <p class="h5"> Look for work <u><a href="#">here</a></u> and never give up. Maybe our site will help
+                    fulfill your dream.</p>
+                <p class="h5">&copy 2018-2019 Search Work. </p>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>

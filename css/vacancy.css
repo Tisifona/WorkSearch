@@ -1,10 +1,22 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+}
+
 body {
     background-color: #f4f5f6;
 }
 
 .main .container{
     margin-top: 100px;
-    margin-bottom: 40px;
+    margin-bottom: 190px;
 }
 .main .serviceBox {
     background: #fff;
@@ -22,6 +34,7 @@ body {
     padding: 0 20px;
     margin: 15px 0 30px;
     color: #333;
+
 }
 
 @media screen and (max-width: 990px) {

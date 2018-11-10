@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet"/>
+    <link rel="stylesheet" href="http://bootstraptema.ru/plugins/2015/bootstrap3/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,500,500i">
+    <link rel="stylesheet" href="http://bootstraptema.ru/plugins/font-awesome/4-4-0/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/user.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css"
+      integrity="sha384-Wrgq82RsEean5tP3NK3zWAemiNEXofJsTwTyHmNb/iL3dP/sZJ4+7sOld1uqYJtE" crossorigin="anonymous">
+
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog modal-login">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="avatar">
+                    <img src="assets/img/fb517f8913bd99cd48ef00facb4a67c0-empres-rio-avatar-silhueta-by-vexels.png"
+                         alt="Avatar">
+                </div>
+                <h4 class="modal-title">Log in to Account</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form action="/examples/actions/confirmation.php" method="post">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="username" placeholder="Username"
+                               required="required">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="password" placeholder="Password"
+                               required="required">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-lg btn-block login-btn">Log in</button>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a href="#">Forgot Password?</a> &#8195;
+                <a href="register.html">Create a new account</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="header">
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#top-navbar-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="top-navbar-1">
+                <ul class="nav navbar-nav navbar-right navbar-menu-items wow fadeIn">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#" type="button" data-toggle="modal" data-target="#myModal" data-title="Log in">Log
+                        in</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+
+
+<section>
+    <div class="container" style="margin-top: 60px;">
+        <div class="profile-head">
+            <div class="col-md- col-sm-4 col-xs-12">
+                <img src="assets/img/44579678_1899792043663467_6749178275416768512_n.jpg" class="img-responsive"/>
+
+            </div><!--col-md-4 col-sm-4 col-xs-12 close-->
+
+            <div class="col-md-5 col-sm-5 col-xs-12">
+                <h5>Petro Kok</h5>
+                <p>Full Stack Developer </p>
+                <ul>
+                    <li><i class="fa fa-suitcase"></i> 2 years</li>
+                    <li><i class="fa fa-map-marker"></i> Ukraine</li>
+                    <li><i class="fa fa-home"></i> st. Stepan Bandery 29, Lviv</li>
+                    <li> <i class="fa fa-phone"></i><a href="#" title="call"> (+380) 987 666 123</a>
+                    </li>
+                    <li><i class="fa fa-envelope"></i><a href="#" title="mail"> petrokok@gmail.com</a></li>
+
+                </ul>
+
+
+            </div><!--col-md-8 col-sm-8 col-xs-12 close-->
+
+
+        </div><!--profile-head close-->
+    </div><!--container close-->
+
+
+    <div id="sticky" class="container">
+
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs nav-menu" role="tablist">
+            <li class="active">
+                <a href="#profile" role="tab" data-toggle="tab">
+                    <i class="fa fa-male"></i> Profile
+                </a>
+            </li>
+            <li><a href="#change" role="tab" data-toggle="tab">
+                <i class="fa fa-edit"></i> Edit Profile
+            </a>
+            </li>
+        </ul><!--nav-tabs close-->
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+            <div class="tab-pane fade active in" id="profile">
+                <div class="container">
+
+                    <br clear="all"/>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="pro-title">My profile</h4>
+                        </div>
+
+                        <div class="col-md-12">
+                            <h4 class="pro-subtitle">Information for authorization</h4>
+                            <hr align="left">
+                            <div class="table-responsive responsiv-table">
+                                <table class="table bio-table">
+                                    <tbody>
+                                    <tr>
+                                        <td class="request">Email:</td>
+                                        <td class="answer">petrokok@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="request">Password:</td>
+                                        <td class="answer">********</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <h4 class="pro-subtitle">Personal data</h4>
+                            <hr align="left">
+                            <div class="table-responsive responsiv-table">
+                                <table class="table bio-table">
+                                    <tbody>
+                                    <tr>
+                                        <td class="request">Name:</td>
+                                        <td class="answer">Petro Kok</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="request">Birthday:</td>
+                                        <td class="answer">10/01/1998</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="request">Country:</td>
+                                        <td class="answer">Ukraine</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="request">Address:</td>
+                                        <td class="answer">st. Stepan Bandery 29, Lviv</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="request">Phone:</td>
+                                        <td class="answer">(+380) 987 666 123</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-12">
+                            <h4 class="pro-subtitle">Professional experience</h4>
+                            <hr align="left">
+                            <div class="table-responsive responsive-table">
+                                <table class="table bio-table">
+                                    <tbody>
+                                    <tr>
+                                        <td class="request">Industry:</td>
+                                        <td class="answer">IT, computer, internet</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="request">Education:</td>
+                                        <td class="answer">Higher education</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="request">Qualification:</td>
+                                        <td class="answer">Full Stack Developer</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="request">Experience:</td>
+                                        <td class="answer">More than 2 years</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade" id="change">
+                <div class="container fom-main">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2 class="register">Edit Your Profile</h2>
+                        </div><!--col-sm-12 close-->
+
+                    </div><!--row close-->
+                    <br/>
+                    <div class="row">
+
+                        <form class="form-horizontal main_form text-left" action=" " method="post" id="contact_form">
+                            <fieldset>
+
+                                <div class="form-group col-md-12">
+                                    <label class="col-md-10 control-label">Name</label>
+                                    <div class="col-md-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <input name="name" placeholder="Name" class="form-control"
+                                                   type="text">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-12">
+                                    <label class="col-md-10 control-label">Birthday</label>
+                                    <div class="col-md-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <input name="dr" class="form-control" type="date">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-12">
+                                    <label class="col-md-10 control-label">Country</label>
+                                    <div class="col-md-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <input name="country" placeholder="Country" class="form-control"
+                                                   type="text">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-12">
+                                    <label class="col-md-10 control-label">Address</label>
+                                    <div class="col-md-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <input name="address" placeholder="Country" class="form-control" type="text">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-12">
+                                    <label class="col-md-10 control-label">Phone</label>
+                                    <div class="col-md-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <input name="phone" placeholder="(845)555-1212" class="form-control"
+                                                   type="text">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Text input-->
+
+                                <div class="form-group col-md-12">
+                                    <label class="col-md-10 control-label">Education</label>
+                                    <div class="col-md-12 selectContainer">
+                                        <div class="input-group">
+                                            <select name="state" class="form-control selectpicker">
+                                                <option value="" >Education</option>
+                                                <option value="1">Higher education</option>
+                                                <option value="2">Incomplete higher education</option>
+                                                <option value="3">Secondary special education</option>
+                                                <option value="4">Secondary education</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-12">
+                                    <label class="col-md-10 control-label">Industry</label>
+                                    <div class="col-md-12 selectContainer">
+                                        <div class="input-group">
+                                            <select name="state" class="form-control selectpicker">
+                                                <option value=" ">Industry</option>
+                                                <option>Industry</option>
+                                                <option>Industry</option>
+                                                <option>Industry</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- Select Basic -->
+
+                                <div class="form-group col-md-12">
+                                    <label class="col-md-10 control-label">Qualification</label>
+                                    <div class="col-md-12 selectContainer">
+                                        <div class="input-group">
+                                            <select name="state" class="form-control selectpicker">
+                                                <option value=" ">Your Qualification</option>
+                                                <option>Full Stack Developer</option>
+                                                <option>Web Developer</option>
+                                                <option>Java Developer</option>
+                                                <option>Designer</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-12">
+                                    <label class="col-md-10 control-label">Experience</label>
+                                    <div class="col-md-12 selectContainer">
+                                        <div class="input-group">
+                                            <select name="state" class="form-control selectpicker">
+                                                <option value=" ">Your Experience</option>
+                                                <option value="1">More than 1 years</option>
+                                                <option value="2">More than 3 years</option>
+                                                <option value="3">More than 5 years</option>
+                                                <option value="4">More than 10 years</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group col-md-12">
+                                    <label class="col-md-10 control-label">E-Mail</label>
+                                    <div class="col-md-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <input name="email" placeholder="E-Mail Address" class="form-control"
+                                                   type="text">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-md-12">
+                                    <label class="col-md-10 control-label">Choose Password</label>
+                                    <div class="col-md-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <input name="first_name" placeholder="Choose Password" class="form-control"
+                                                   type="password">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group col-md-12">
+                                    <label class="col-md-10 control-label">Confiram Password</label>
+                                    <div class="col-md-12 inputGroupContainer">
+                                        <div class="input-group">
+                                            <input name="first_name" placeholder="Confiram Password"
+                                                   class="form-control" type="password">
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- upload profile picture -->
+                                <div class="col-md-12 text-left">
+                                    <div class="uplod-picture">
+                                        <span class="btn btn-default uplod-file">Upload Photo <input type="file"/></span>
+                                        <span class="btn btn-default uplod-file">Upload Resume <input type="file"/></span>
+                                    </div><!--uplod-picture close-->
+                                </div><!--col-md-12 close-->
+                                <!-- Button -->
+                                <div class="form-group col-md-10">
+                                    <div class="col-md-6">
+                                        <button type="submit" class="btn btn-warning submit-button">Save</button>
+                                        <button type="submit" class="btn btn-warning submit-button">Cancel</button>
+
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div><!--row close-->
+                </div><!--container close -->
+            </div><!--tab-pane close-->
+        </div><!--tab-content close-->
+    </div><!--container close-->
+
+</section><!--section close-->
+
+
+
+
+
+
+
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                <ul class="list-unstyled list-inline social text-center">
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                </ul>
+            </div>
+            </hr>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                <p class="h5"> Look for work <u><a href="index.html">here</a></u> and never give up. Maybe our site will
+                    help
+                    fulfill your dream.</p>
+                <p class="h5">&copy 2018-2019 Search Work. </p>
+            </div>
+            </hr>
+        </div>
+    </div>
+</section>
+<script src="assets/js/jquery-1.11.1.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
