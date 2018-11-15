@@ -6,7 +6,6 @@
     line-height: 30px;
     text-align: center;
 }
-
 .modal-login {
     color: #636363;
     width: 350px;
@@ -60,8 +59,12 @@
     height: 95px;
     border-radius: 50%;
     z-index: 9;
-    background: #b78a62;
+    background: #7eb7ee;
     padding: 15px;
+}
+.mdb-select{
+    color: #999999;
+    width: 100%;
 }
 .modal-login .avatar img {
     width: 100%;
@@ -73,14 +76,14 @@
 .modal-login .btn {
     color: #fff;
     border-radius: 4px;
-    background: #b78a62;
+    background: #7eb7ee;
     text-decoration: none;
     transition: all 0.4s;
     line-height: normal;
     border: none;
 }
 .modal-login .btn:hover, .modal-login .btn:focus {
-    background: #af7d51;
+    background: #7eb7ee;
     outline: none;
 }
 
@@ -114,7 +117,23 @@
     color: #b78a62;
 }
 
-.about .desc p {
+.about .desc1 p {
+    line-height: 2;
+    color: #888;
+}
+
+
+
+.about .desc1 {
+    padding: 2em;
+    border-right: 4px solid #b78a62;
+}
+
+.about .desc1 h3 {
+    color: #b78a62;
+}
+
+.about .desc1 p {
     line-height: 2;
     color: #888;
 }
