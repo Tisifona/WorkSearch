@@ -110,11 +110,13 @@
 
 .about .desc {
     padding: 2em;
-    border-left: 4px solid #b78a62;
+    border-left: 4px solid #7eb7ee;
 }
 
 .about .desc h3 {
-    color: #b78a62;
+    font-size: 27px;
+    margin-bottom: 15px;
+    color: #7eb7ee;
 }
 
 .about .desc1 p {
@@ -126,11 +128,13 @@
 
 .about .desc1 {
     padding: 2em;
-    border-right: 4px solid #b78a62;
+    border-right: 4px solid #7eb7ee;
 }
 
 .about .desc1 h3 {
-    color: #b78a62;
+    font-size: 27px;
+    margin-bottom: 15px;
+    color: #7eb7ee;
 }
 
 .about .desc1 p {
@@ -139,14 +143,16 @@
 }
 
 .btn-outline-secondary {
+    font-family: 'Roboto', sans-serif;
     width: 150px;
     background-color: #ffffff;
-    border: 2px solid #b78a62;
+    border: 2px solid #7eb7ee;
     color: #444;
 }
 
 .btn-outline-secondary:hover {
-    background: #b78a62;
+    background: #5c8ab2;
+    border: 2px solid #5c8ab2;
     color: #ffffff;
 }
 

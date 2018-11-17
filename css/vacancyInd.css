@@ -94,7 +94,7 @@ body {
 
 .main .nameVacancy {
     margin-left: 30px;
-    color: #b78a62;
+    color: #7eb7ee;
     font-weight: bold;
     font-size: 32px;
 }
@@ -105,14 +105,14 @@ body {
 }
 
 .main .company{
-    color: #5b4f39;
+    color: #3a3a3a;
 }
 .main .dataHorizontal{
     color: #888;
     font-size: 16px;
 }
 .main .descriptHorizontal{
-    color: #5b4f39;
+    color: #3a3a3a;
     font-size: 16px;
 }
 .main .description{
@@ -120,33 +120,34 @@ body {
     margin-right: 30px;
 }
 .description h3{
-    color: #b78a62;
+    color: #7eb7ee;
     font-weight: bold;
     font-size: 24px;
 }
 .description h4{
-    color: #b78a62;
+    color: #7eb7ee;
     font-weight: bold;
     font-size: 18px;
 }
 .description .descriptionVacancy{
-    color: #5b4f39;
+    color: #3a3a3a;
     font-size: 16px;
 }
 .description ul{
-    color: #5b4f39;
+    color: #3a3a3a;
     font-size: 16px;
 }
 .description .btn-outline-secondary:hover {
 
-    background-color: #af7d51;
-    border: 2px solid #b78a62;
+    background-color: #5c8ab2;
+    border: 2px solid #5c8ab2;
     color: #ffffff;
 }
 
 .description .btn-outline-secondary {
     width: 150px;
-    background: #b78a62;
+    background: #7eb7ee;
+    border: 2px solid #7eb7ee;
     color: #ffffff;
 }
 .similar{
@@ -156,15 +157,15 @@ body {
 .service-content h2{
     margin-top: 0;
     margin-left: 15px;
-    color: #333;
+    color: #3a3a3a;
     font-size: 20px;
 }
 .similar h4 a{
-    color: #836244;
+    color: #5c8ab2;
     font-size: 18px;
 }
 .service-content h2 a{
-    color: #333;
+    color: #3a3a3a;
     font-size: 20px;
 }
 
