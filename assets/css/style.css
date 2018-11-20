@@ -124,8 +124,6 @@
     color: #888;
 }
 
-
-
 .about .desc1 {
     padding: 2em;
     border-right: 4px solid #7eb7ee;
@@ -140,6 +138,53 @@
 .about .desc1 p {
     line-height: 2;
     color: #888;
+}
+.item{
+    margin: 0;
+    padding: 0;
+}
+.item-wrap img{
+    height: 380px;
+    object-fit: cover;
+}
+.item-wrap .overlay{
+    position: absolute;
+    transition: .5s ease;
+    opacity: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.img-item {
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.item:hover .img-item {
+    opacity: 0.4;
+}
+.item:hover .overlay {
+    opacity: 1;
+}
+.item-wrap .text {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-style: italic;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .btn-outline-secondary {

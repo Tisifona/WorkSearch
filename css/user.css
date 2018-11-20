@@ -16,7 +16,7 @@ body {
 /*nav css close*/
 .profile-head {
     width: 100%;
-    background-color: #b78a62;
+    background-color: #7eb7ee;
     float: left;
     padding: 15px 5px;
 }
@@ -136,7 +136,7 @@ input[type=date] {
 /* edit profile css*/
 
 .hve-pro {
-    background-color: #b78a62;
+    background-color: #7eb7ee;
     padding: 5px;
     width: 100%;
     height: auto;
@@ -156,7 +156,7 @@ h2.register {
     padding: 10px 25px;
     text-transform: capitalize;
     font-size: 25px;
-    color: #b78a62;
+    color: #7eb7ee;
 }
 
 .fom-main {
@@ -165,7 +165,7 @@ h2.register {
 
 legend {
     font-family: 'Bitter', serif;
-    color: #b78a62;
+    color: #7eb7ee;
     border-bottom: 0px solid;
 }
 
@@ -181,7 +181,7 @@ label.control-label {
 
 .submit-button {
     color: #fff;
-    background-color: #b78a62;
+    background-color: #7eb7ee;
     width: 190px;
     border: 0px solid;
     border-radius: 0px;
@@ -196,7 +196,7 @@ label.control-label {
 }
 
 .form-control:focus {
-    border-color: #b78a62;
+    border-color: #7eb7ee;
 }
 
 select.selectpicker {
@@ -227,7 +227,7 @@ select.selectpicker option:first-child {
     overflow: hidden;
     color: #fff;
     background-color: #444444;
-    border: 0px solid #b78a62;
+    border: 0px solid #7eb7ee;
     border-radius: 0px;
     transition: all ease 0.3s;
     margin: 5px;
@@ -251,7 +251,7 @@ select.selectpicker option:first-child {
 
 .uplod-file:hover, .uplod-file:focus {
     color: #fff;
-    background-color: #b78a62;
+    background-color: #7eb7ee;
 }
 
 h4.pro-title {
@@ -317,7 +317,7 @@ h4.pro-subtitle {
 }
 
 .nav-menu li.active a {
-    background-color: #b78a62 !important;
+    background-color: #7eb7ee !important;
 }
 
 .stick {
